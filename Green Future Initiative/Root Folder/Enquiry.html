@@ -1,0 +1,171 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Green Future Initiative</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <h1>Green Future Initiative</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>Get Involved</h2>
+                <p>There are many ways to support our mission. Choose how you'd like to make a difference.</p>
+                
+                <div>
+                    <div>
+                        <h3>Volunteer</h3>
+                        <p>Join our community of volunteers and participate in our various programs and events.</p>
+                        <a href="#volunteer-form">Sign Up</a>
+                    </div>
+                    
+                    <div>
+                        <h3>Donate</h3>
+                        <p>Your financial support helps us plant more trees and expand our educational programs.</p>
+                        <a href="#donation-form">Donate Now</a>
+                    </div>
+                    
+                    <div>
+                        <h3>Partner</h3>
+                        <p>Businesses and organizations can partner with us for CSR initiatives and sponsored programs.</p>
+                        <a href="#partner-form">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="donation-form">
+            <div>
+                <h3>Make a Donation</h3>
+                <form>
+                    <div>
+                        <label for="donation-amount">Donation Amount (ZAR)</label>
+                        <input type="number" id="donation-amount" min="10" step="10" value="100" required>
+                    </div>
+                    <div>
+                        <label for="donor-name">Full Name</label>
+                        <input type="text" id="donor-name" required>
+                    </div>
+                    <div>
+                        <label for="donor-email">Email Address</label>
+                        <input type="email" id="donor-email" required>
+                    </div>
+                    <div>
+                        <label for="donor-phone">Phone Number</label>
+                        <input type="tel" id="donor-phone">
+                    </div>
+                    <button type="submit">Donate Now</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="volunteer-form">
+            <div>
+                <h3>Volunteer Registration</h3>
+                <form>
+                    <div>
+                        <label for="volunteer-name">Full Name</label>
+                        <input type="text" id="volunteer-name" required>
+                    </div>
+                    <div>
+                        <label for="volunteer-email">Email Address</label>
+                        <input type="email" id="volunteer-email" required>
+                    </div>
+                    <div>
+                        <label for="volunteer-phone">Phone Number</label>
+                        <input type="tel" id="volunteer-phone" required>
+                    </div>
+                    <div>
+                        <label for="volunteer-interest">Area of Interest</label>
+                        <select id="volunteer-interest" required>
+                            <option value="">Select an option</option>
+                            <option value="tree-planting">Tree Planting</option>
+                            <option value="education">Education & Workshops</option>
+                            <option value="fundraising">Fundraising & Events</option>
+                            <option value="administration">Administration</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="volunteer-availability">Availability</label>
+                        <select id="volunteer-availability" required>
+                            <option value="">Select an option</option>
+                            <option value="weekdays">Weekdays</option>
+                            <option value="weekends">Weekends</option>
+                            <option value="both">Both</option>
+                        </select>
+                    </div>
+                    <button type="submit">Submit Application</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="partner-form">
+            <div>
+                <h3>Partnership Inquiry</h3>
+                <form>
+                    <div>
+                        <label for="organization-name">Organization Name</label>
+                        <input type="text" id="organization-name" required>
+                    </div>
+                    <div>
+                        <label for="contact-person">Contact Person</label>
+                        <input type="text" id="contact-person" required>
+                    </div>
+                    <div>
+                        <label for="partner-email">Email Address</label>
+                        <input type="email" id="partner-email" required>
+                    </div>
+                    <div>
+                        <label for="partner-phone">Phone Number</label>
+                        <input type="tel" id="partner-phone" required>
+                    </div>
+                    <div>
+                        <label for="partnership-type">Type of Partnership</label>
+                        <select id="partnership-type" required>
+                            <option value="">Select an option</option>
+                            <option value="corporate">Corporate Sponsorship</option>
+                            <option value="csr">CSR Initiative</option>
+                            <option value="community">Community Partnership</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="partner-message">Message</label>
+                        <textarea id="partner-message" rows="5"></textarea>
+                    </div>
+                    <button type="submit">Submit Inquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2023 Green Future Initiative. All rights reserved.</p>
+            <p>Email: info@greenfuture.org.za | Phone: +27 123 456 789</p>
+            <p>Address: 123 Green Street, Durban, South Africa</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/enquiry.js"></script>
+</body>
+</html>
